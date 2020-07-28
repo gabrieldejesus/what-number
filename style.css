@@ -59,3 +59,33 @@ button{
     font-size:30px;
     margin-top:20px;
 }
+@media (max-width:680px) {
+    #n1,
+    #n2 {
+        width:200px;
+        height:150px;
+        font-size:80px;
+    }
+    button {
+        width:200px;
+    }
+    #result {
+        font-size:26px;
+    }
+}
+@media (max-width:460px) {
+    .numbers {
+        flex-direction:column;
+    }
+    #n1,
+    #n2 {
+        font-size:50px;
+    }
+    #n1 {
+        margin-right:0;
+        margin-bottom:20px;
+    }
+    #result {
+        font-size:20px;
+    }
+}
